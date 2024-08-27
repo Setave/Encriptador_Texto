@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
+    <link rel="stylesheet" href="./Estilos/Style.css">
+    <title>Challenge Alura</title>
+</head>
+<body>
+
+    <!-- Encabezado -->
+
+    <header>
+        <a href="#" rel="">
+            <img src="./Imagenes/Logo1.png" alt="Logo Alura" class="logo">
+        </a>    
+    </header>
+
+    <!-- Principal -->
+     
+    <main>
+        <section class="Lado_izquierdo">
+            <textarea class="Cuadro_encriptador" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="Alerta">
+                <img src="./Imagenes/Interrogante.png" alt="Imagen Alerta" class="Imagen_alerta">
+                <p class="Mensaje_alerta">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="Botones_lado_izquierdo">
+                <button type="submit" class="Boton_encriptar">Encriptar</button>
+                <button type="submit" class="Boton_desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="Lado_derecho">
+           <div class="Cuadro_desencriptador">
+                <img src="./Imagenes/Muñeco.png" alt="Imagen Muñeco" class="Imagen_lado_derecho">
+                <p class="Texto1">Ningún mensaje fue encontrado</p>
+                <p class="Texto2">Ingrese el texto que deseas encriptar o desencriptar</p>
+           </div>
+           <textarea type="mensaje" class="Validar" readonly></textarea>
+           <button type="submit" class="Boton_copiar">Copiar</button>
+         </section>  
+    </main>
+
+    <!-- Pie de Página -->
+     
+    <footer>
+        <p class="Pie_de_pagina"> Desarrollado por Johan Sebastian Tavera Velez</p>
+        
+    </footer>
+
+    <script src="./Java/app.js"></script>
+
+</body>
+</html>
